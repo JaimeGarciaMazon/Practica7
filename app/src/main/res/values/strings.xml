@@ -2,4 +2,24 @@
     <string name="app_name">Practica7</string>
     <string name="Guardar">Guardar</string>
     <string name="title_activity_maps">Map</string>
+    <string name="nombre">nombre</string>
+    <string name="categoria">categoria</string>
+    <string name="longitud">longitud</string>
+    <string name="latitud">latitud</string>
+    <string name="valoracion">valoracion</string>
+    <string name="comentarios">comentarios</string>
+    <string name="global" />
+    <string name="categoria1" />
+    <string name="editar">editar</string>
+    <string name="Borrar">Borrar</string>
+    <string name="categoria2" />
+    <string name="categoria3" />
+    <string name="categoria4" />
+    <string name="categoria5" />
+    <string name="toast2" />
+    <string name="toast1" />
+    <drawable name="mundo">mundo</drawable>
+    <drawable name="circle">circle</drawable>
+    <drawable name="plus">plus</drawable>
+    <drawable name="radar">radar</drawable>
 </resources>
