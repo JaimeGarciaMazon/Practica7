@@ -9,17 +9,17 @@
     <string name="valoracion">valoracion</string>
     <string name="comentarios">comentarios</string>
     <string name="global" />
-    <string name="categoria1" />
+    <string name="categoria1">Hospitales</string>
     <string name="editar">editar</string>
     <string name="Borrar">Borrar</string>
-    <string name="categoria2" />
-    <string name="categoria3" />
-    <string name="categoria4" />
-    <string name="categoria5" />
-    <string name="toast2" />
-    <string name="toast1" />
-    <drawable name="mundo">mundo</drawable>
-    <drawable name="circle">circle</drawable>
-    <drawable name="plus">plus</drawable>
-    <drawable name="radar">radar</drawable>
+    <string name="categoria2">Restaurante</string>
+    <string name="categoria3">Gasolinera</string>
+    <string name="categoria4">Funeraria</string>
+    <string name="categoria5">Aeropuerto</string>
+    <string name="toast2">Correcto</string>
+    <string name="toast1">Correcto</string>
+    <string name="app_name2">Nuevo y Editar</string>
+    <string name="app_name3">Informacion</string>
+    <string name="app_name5">Mapa</string>
+
 </resources>
