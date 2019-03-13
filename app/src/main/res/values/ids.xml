@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView11" type="id" />
+    <item name="textView12" type="id" />
+    <item name="textView13" type="id" />
+    <item name="textView14" type="id" />
+    <item name="textView17" type="id" />
+    <item name="ratingBar3" type="id" />
+</resources>
