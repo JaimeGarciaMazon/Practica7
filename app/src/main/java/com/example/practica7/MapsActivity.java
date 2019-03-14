@@ -42,29 +42,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void mostrarTodo() {
 
         float colorMarcador[] = {0.0f, 0.0f, 210.0f, 240.0f,180.0f, 120.0f};
-
-/*
-        Log.i("MyApp", "COLOR ROJO:"+ BitmapDescriptorFactory.HUE_RED);
-        Log.i("MyApp", "COLOR AZURE:"+ BitmapDescriptorFactory.HUE_AZURE);
-        Log.i("MyApp", "COLOR BLUE:"+ BitmapDescriptorFactory.HUE_BLUE)c;
-        Log.i("MyApp", "COLOR CYAN:"+ BitmapDescriptorFactory.HUE_CYAN);
-        Log.i("MyApp", "COLOR GREEN:"+ BitmapDescriptorFactory.HUE_GREEN);
-*/
-
-        //Log.i("MyApp", "COLOR 01:"+ R.color.clrMarcador01);
-/*
-        float colorMarcador[] = new float[6];
-        colorMarcador[1] = 0.0f + getResources().getColor(R.color.clrMarcador01);
-        colorMarcador[2] = 0.0f + getResources().getColor(R.color.clrMarcador02);
-        colorMarcador[3] = 0.0f + getResources().getColor(R.color.clrMarcador03);
-        colorMarcador[4] = 0.0f + getResources().getColor(R.color.clrMarcador04);
-        colorMarcador[5] = 0.0f + getResources().getColor(R.color.clrMarcador05);
-
-for(int i=1;i<5; i++) {
-    Log.i("MyApp" , "Color: " + colorMarcador[i]);
-}
-
-*/
         Log.i("MyApp" , "Color: " + App.categoriaSpinnerMapa);
         if(App.categoriaSpinnerMapa==0)
         {
@@ -99,10 +76,6 @@ for(int i=1;i<5; i++) {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         mostrarTodo();
-        //mMap.addMarker(new MarkerOptions().position(Sevilla).title("Ciudad de Sevilla").icon(BitmapDescriptorFactory.fromResource(R.drawable.mi_marcador)));
-        //mMap.addMarker(new MarkerOptions().position(Sevilla).title("Ciudad de Sevilla").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
-        //mMap.addMarker(new MarkerOptions().position(Huelva).title("Ciudad de Huelva"));
-        //mMap.moveCamera(CameraUpdateFactory.newLatLng(Sevilla));
         mMap.animateCamera(CameraUpdateFactory.zoomIn());
         mMap.animateCamera(CameraUpdateFactory.zoomTo(5), 2000, null);
         mMap.setOnMarkerClickListener(this);
@@ -129,14 +102,7 @@ for(int i=1;i<5; i++) {
 
 
         startActivity(new Intent(getApplicationContext(), pantallaInformacion.class));
-       /* Integer clickCount = (Integer) marker.getTag();
 
-        if (clickCount != null) {
-            clickCount = clickCount + 1;
-            marker.setTag(clickCount);
-            Toast.makeText(this, marker.getTitle() + " ha sido pulsado " + clickCount + " veces.", Toast.LENGTH_SHORT).show();
-        }
-        */
         return false;
     }
 }

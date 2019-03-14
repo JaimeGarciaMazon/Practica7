@@ -69,15 +69,14 @@
             android:id="@+id/editText2"
             android:layout_width="156dp"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="5"
             android:inputType="numberSigned|numberDecimal" />
 
         <EditText
             android:id="@+id/editText3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
+            android:ems="5"
             android:inputType="numberSigned|numberDecimal" />
 
         <ImageView
@@ -85,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/radar" />
+            app:srcCompat="@android:drawable/ic_lock_idle_low_battery" />
     </LinearLayout>
 
     <LinearLayout
